@@ -1,0 +1,599 @@
+body {
+    overflow-x: hidden;
+    font-family: futura;
+}
+.containerHomePages {
+  width: 1440px;
+  height: 826px;
+  background: url('salle.png') no-repeat;
+  position: relative;
+}
+
+.rectangle {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 1440px;
+  height: 826px;
+}
+
+h1 {
+  font-family: futura;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  transform: translateY(330%);
+}
+
+.reserverr {
+  border: 3px white solid;
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  font-family: futura;
+  font-size: 20px;
+  color: white;
+  margin-top: 384px;
+  margin-left: 600px;
+}
+.reserverr:focus {
+  outline: none;
+}
+.scrollContainer {
+  width: 1px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  margin-top: 605px;
+  margin-left: 720px;
+}
+
+.scroll {
+  font-family: futura;
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  display: flex;
+  margin-top: 670px;
+  margin-left: 699px;
+}
+
+.jap {
+  width: 1440px;
+  font-size: 600px;
+  opacity: 10%;
+  margin-top: 300px;
+  margin-left: 619px;
+  color: lightgrey;
+  margin-right: -600px;
+  position: absolute;
+}
+
+.parasecondpart {
+  font-size: 14px;
+  font-family: futura;
+  position: absolute;
+  margin-left: 205px;
+  margin-top: 720px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.knife {
+  position: absolute;
+  margin-left: 205px;
+  margin-top: 486px;
+  z-index: 1;
+}
+
+.yokubo {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 24px;
+  margin-top: 486px;
+  border-left: 3px darkred solid;
+  padding-left: 16px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.zeroun {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  margin-top: 625px;
+  margin-left: 52px;
+}
+
+.secondpart {
+  margin-top: -200px;
+}
+
+.menu {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 24px;
+  border-left: 3px darkred solid;
+  padding-left: 16px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin-top: 1300px;
+}
+
+.zerodeux {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  margin-left: 42px;
+  margin-top: 1430px;
+}
+
+.imgthirdpart {
+  margin-top: 1020px;
+  margin-left: -20px;
+  width: 105%;
+  height: 848px;
+}
+
+.parathirdpart {
+  margin-top: -720px;
+  font-size: 28px;
+  color: white;
+  margin-left: 300px;
+  font-weight: 100;
+}
+
+.decouvrir {
+  border: 2px black solid;
+  font-family: futura;
+  font-size: 25px;
+  text-align: center;
+  background: white;
+  margin-left: 300px;
+  padding: 20px 20px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+.decouvrir:focus {
+  outline: none;
+}
+.reserver {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 24px;
+  border-left: 3px darkred solid;
+  padding-left: 16px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin-top: 820px;
+}
+
+.zerotrois {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  margin-left: 56px;
+  margin-top: 966px;
+}
+
+.table {
+  border: 2px black solid;
+  font-size: 25px;
+  text-align: center;
+  background: white;
+  padding: 20px 20px;
+  color: black;
+  margin-left: 566px;
+  margin-top: 560px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-family: futura;
+  }
+.table:focus {
+  outline: none;
+}
+.bitmap {
+  margin-left: 480px;
+  margin-top: 120px;
+  margin-bottom: 173px;
+}
+
+.egal {
+  position: absolute;
+  margin-top: 908px;
+  margin-left: 1350px;
+  border-bottom: 3px darkred solid;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.firsttrait {
+  position: absolute;
+  font-size: 40px;
+  border-bottom: 3px darkred solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 1365px;
+  margin-left: 1360px;
+}
+
+.secondtrait {
+  position: absolute;
+  font-size: 40px;
+  margin-left: 1390px;
+  margin-top: 1405px;
+}
+
+.reserverdeux {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 24px;
+  border-left: 3px darkred solid;
+  padding-left: 16px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin-top: 250px;
+}
+
+.zerotroisdeux {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  margin-left: 56px;
+  margin-top: 392px;
+}
+
+.combien {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  border-top: 1px solid white;
+  padding-top: 100px;
+  margin-top: 120px;
+}
+
+.un {
+  border-top: 2px lightgrey solid;
+  border-left: 2px lightgrey solid;
+  border-right: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px 5px 24px;
+  margin-left: 570px;
+  font-size: 40px;
+  margin-top: 127px;
+}
+.un:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.deux:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.trois:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.quatre:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.cinq:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.six:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.sept:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.huit:focus {
+  outline: none;
+  background-color: #FB3640;
+}
+.deux {
+  border-top: 2px lightgrey solid;
+  border-left: 2px lightgrey solid;
+  border-right: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.trois {
+  border-top: 2px lightgrey solid;
+  border-left: 2px lightgrey solid;
+  border-right: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.quatre {
+  border-top: 2px lightgrey solid;
+  border-left: 2px lightgrey solid;
+  border-right: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.cinq {
+  border: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px 5px 18px;
+  margin-left: 570px;
+  font-size: 40px;
+
+}
+
+.six {
+  border: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px 5px 19px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.sept {
+  border: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px 5px 22px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.huit {
+  border: 2px lightgrey solid;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  font-size: 40px;
+  margin-left: -6px;
+}
+
+.phrase {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 210px;
+  color: grey;
+}
+
+.egaldeux {
+  position: absolute;
+  margin-left: 1350px;
+  margin-top: -307px;
+  border-bottom: 3px darkred solid;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.reservertrois {
+  position: absolute;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 24px;
+  border-left: 3px darkred solid;
+  padding-left: 16px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin-top: 264px;
+}
+
+.zerotroistrois {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  margin-left: 56px;
+  margin-top: 410px;
+}
+
+.choisir {
+  margin-left: 560px;
+  font-size: 30px;
+  padding-top: 60px;
+  font-family: futura;
+}
+
+.egaltrois {
+  position: absolute fixed;
+  margin-left: 1350px;
+  margin-top: 178px;
+  border-bottom: 3px darkred solid;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.horaire {
+  font-size: 20px;
+  margin-left: 521px;
+  margin-top: 0px;
+}
+
+.heure {
+  width: 200px;
+  margin-left: 110px;
+  margin-top: -17px;
+  margin-bottom: 200px;
+  font-family: futura;
+}
+.heure:focus {
+  outline: none;
+}
+.date {
+  width: 200px;
+  margin-left: 580px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: futura;
+}
+.date:focus {
+  outline: none;
+}
+.footer {
+  display: block;
+  height: 414px;
+  width: 100%;
+  background-color: #323232;
+  margin-top: 180px;
+}
+.pfooter {
+  text-align: center;
+  line-height: 26px;
+  color: white;
+}
+.pfooter1 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+}
+
+.come {
+  position: absolute;
+  color: white;
+  margin-left: 102px;
+  padding-top: 77px;
+}
+.adresse {
+  padding-top: 120px;
+  position: absolute;
+  color: white;
+  margin-left: 102px;
+}
+.contact {
+  position: absolute;
+  color: white;
+  margin-left: 102px;
+  padding-top: 240px;
+}
+.tel {
+  padding-top: 300px;
+  position: absolute;
+  color: white;
+  margin-left: 102px;
+}
+.join {
+  position: absolute;
+  color: white;
+  margin-left: 1100px;
+  margin-top: -100px;
+}
+.instagram {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-left: 598px;
+  margin-top: 80px;
+}
+.twitter {
+  position: absolute;
+  height: 30px;
+  width: 37px;
+  margin-left: 809px;
+  margin-top: 80px;
+}
+.facebook {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-left: 704px;
+  margin-top: 80px;
+}
+.layout {
+  background-image: url();
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+  list-style: none;
+}
+.nom {
+  position: absolute;
+  font-size: 16px;
+  width: 20%;
+  margin-left: 320px;
+  margin-top: 100px;
+  font-family: futura;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nom:focus {
+  outline: none;
+}
+.prenom {
+  position: absolute;
+  font-size: 16px;
+  width: 20%;
+  margin-left: 820px;
+  margin-top: 100px;
+  font-family: futura;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.prenom:focus {
+  outline: none;
+}
+.numtel {
+  position: absolute;
+  font-size: 16px;
+  width: 20%;
+  margin-left: 320px;
+  margin-top: 220px;
+  font-family: futura;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.numtel:focus {
+  outline: none;
+}
+.mail {
+  position: absolute;
+  font-size: 16px;
+  width: 20%;
+  margin-left: 820px;
+  margin-top: 220px;
+  font-family: futura;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.mail:focus {
+  outline: none;
+}
+.envoyer {
+  font-size: 20px;
+  width: 10%;
+  text-align: center;
+  margin-left: 640px;
+  font-family: futura;
+}
+.valider {
+  font-size: 20px;
+  width: 10%;
+  text-align: center;
+  margin-left: 640px;
+  margin-top: 400px;
+  font-family: futura;
+}
+.cinqpart {
+  display: none;
+}
+.unhoraire {
+  font-family: futura;
+}
